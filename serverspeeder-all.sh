@@ -83,7 +83,7 @@ echo "================================================="
 
 
 #下载支持的bin列表
-curl "https://raw.githubusercontent.com/liyuans/serverspeeder/master/serverspeederbin.txt" -o serverspeederbin.txt || { echo "文件下载失败，自动退出，可以前往http://www.91yun.org/serverspeeder91yun手动下载安装包";exit 1; }
+wget "https://raw.githubusercontent.com/liyuans/serverspeeder/master/serverspeederbin.txt" -o serverspeederbin.txt || { echo "文件下载失败，自动退出，可以前往http://www.91yun.org/serverspeeder91yun手动下载安装包";exit 1; }
 
 
 
